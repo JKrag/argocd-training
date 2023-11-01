@@ -3,13 +3,13 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: backen
+    app: backend
   name: backend
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: backend
+      app: backendX
   strategy: {}
   template:
     metadata:
